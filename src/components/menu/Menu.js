@@ -4,7 +4,7 @@ import MenuItems from "./../menu-items/MenuItems";
 import data from "./../../data";
 
 const Menu = () => {
-  const [menulist, setMenuList] = useState([]);
+  const [menulist, setMenuList] = useState(data);
   const categories = data.map((menu) => menu.category);
   const filteredCategories = [...new Set(categories)];
 
