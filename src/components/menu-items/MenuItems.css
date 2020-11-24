@@ -1,12 +1,32 @@
 .menulist-wrapper {
-  width: 992px;
-  background: #fff;
+  width: 1200px;
+  /* background: #fff; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 4rem;
   padding: 2rem;
 }
 .menu-item {
-  border: 1px solid #cccccc;
+  display: grid;
+  cursor: pointer;
+}
+.menu-image-wrapper {
+  width: 200px !important;
+}
+
+.menu-title-price {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.menu-title {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.menu-description {
+  text-align: left;
 }
