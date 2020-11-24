@@ -1,0 +1,12 @@
+.menulist-wrapper {
+  width: 992px;
+  background: #fff;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 2rem;
+}
+.menu-item {
+  border: 1px solid #cccccc;
+}
