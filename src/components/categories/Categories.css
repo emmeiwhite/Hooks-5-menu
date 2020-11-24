@@ -1,0 +1,14 @@
+.menus {
+  display: flex;
+  justify-content: center;
+}
+.menus li {
+  margin: 1rem 1rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.menus li:hover {
+  border-bottom: 3px solid orange !important;
+}

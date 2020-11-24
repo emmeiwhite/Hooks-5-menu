@@ -1,13 +1,17 @@
 import React, { useState } from "react";
 import Menu from "./components/menu/Menu";
-import Categories from "./components/categories/Categories";
 import items from "./data";
 
+import "./App.css";
+
 function App() {
+  const [menus, setMenus] = useState(items);
+
   return (
     <section className="app-wrapper">
+      <h2 className="heading">Our Menu</h2>
+
       <Menu />
-      <Categories />
     </section>
   );
 }
